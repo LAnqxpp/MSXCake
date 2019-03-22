@@ -231,15 +231,8 @@
 		04189E9A224490FF000819A8 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				04189FAF2244CB83000819A8 /* 定时器 */,
 				04189F9E2244C9E0000819A8 /* EBForeNotification */,
-				04189F992244C98D000819A8 /* HFDisplayLink.h */,
-				04189F952244C98C000819A8 /* HFDisplayLink.m */,
-				04189F972244C98D000819A8 /* HFGCDTimer.h */,
-				04189F922244C98B000819A8 /* HFGCDTimer.m */,
-				04189F942244C98C000819A8 /* HFTimer.h */,
-				04189F982244C98D000819A8 /* HFTimer.m */,
-				04189F962244C98C000819A8 /* HFWeakObject.h */,
-				04189F932244C98C000819A8 /* HFWeakObject.m */,
 			);
 			path = 3rd;
 			sourceTree = "<group>";
@@ -507,6 +500,21 @@
 				04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		04189FAF2244CB83000819A8 /* 定时器 */ = {
+			isa = PBXGroup;
+			children = (
+				04189F992244C98D000819A8 /* HFDisplayLink.h */,
+				04189F952244C98C000819A8 /* HFDisplayLink.m */,
+				04189F972244C98D000819A8 /* HFGCDTimer.h */,
+				04189F922244C98B000819A8 /* HFGCDTimer.m */,
+				04189F942244C98C000819A8 /* HFTimer.h */,
+				04189F982244C98D000819A8 /* HFTimer.m */,
+				04189F962244C98C000819A8 /* HFWeakObject.h */,
+				04189F932244C98C000819A8 /* HFWeakObject.m */,
+			);
+			path = "定时器";
 			sourceTree = "<group>";
 		};
 		ACCAD339983EC92CF815188A /* Pods */ = {
