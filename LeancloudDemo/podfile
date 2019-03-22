@@ -12,5 +12,4 @@ target 'LeancloudDemo' do
   pod 'YYModel'
   pod 'MJRefresh'
   pod 'AFNetworking'
-
 end

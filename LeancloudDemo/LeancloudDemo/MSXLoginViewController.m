@@ -19,7 +19,7 @@
     
     
     
-    RJTextField * account = [[RJTextField alloc]initWithFrame:CGRectMake(0, 60, SCREEN_WIDTH, 60)];
+    RJTextField * account = [[RJTextField alloc]initWithFrame:CGRectMake(0, 100, SCREEN_WIDTH, 60)];
     account.placeholder = @"请输入手机号";
     account.maxLength = 11;
     account.errorStr = @"超出字数限制";
@@ -27,7 +27,7 @@
     account.textField.keyboardType = UIKeyboardTypeNumberPad;
     [self.view addSubview:account];
     
-    RJTextField * password = [[RJTextField alloc]initWithFrame:CGRectMake(0, 120, SCREEN_WIDTH, 60)];
+    RJTextField * password = [[RJTextField alloc]initWithFrame:CGRectMake(0, 200, SCREEN_WIDTH, 60)];
     password.placeholder = @"请输入密码";
     password.maxLength = 16;
     password.errorStr = @"超出字数限制";

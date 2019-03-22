@@ -55,6 +55,12 @@
 		04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */; };
 		04189FB12244CF9B000819A8 /* HFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB02244CF9B000819A8 /* HFDisplayLink.m */; };
 		04189FB42244D800000819A8 /* RJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB32244D800000819A8 /* RJTextField.m */; };
+		04189FBA2244DC3D000819A8 /* UIImage+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB62244DC3C000819A8 /* UIImage+GradientColor.m */; };
+		04189FBB2244DC3D000819A8 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB92244DC3D000819A8 /* BaseNavigationController.m */; };
+		04189FC42244DC91000819A8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04189FBD2244DC91000819A8 /* LICENSE */; };
+		04189FC52244DC91000819A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04189FBE2244DC91000819A8 /* README.md */; };
+		04189FC62244DC91000819A8 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FC12244DC91000819A8 /* WRCustomNavigationBar.m */; };
+		04189FC72244DC91000819A8 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FC32244DC91000819A8 /* WRNavigationBar.m */; };
 		42FC1C625A4BF99C878EFAE1 /* libPods-LeancloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +167,16 @@
 		04189FB02244CF9B000819A8 /* HFDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDisplayLink.m; sourceTree = "<group>"; };
 		04189FB22244D7FF000819A8 /* RJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJTextField.h; sourceTree = "<group>"; };
 		04189FB32244D800000819A8 /* RJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJTextField.m; sourceTree = "<group>"; };
+		04189FB62244DC3C000819A8 /* UIImage+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GradientColor.m"; sourceTree = "<group>"; };
+		04189FB72244DC3D000819A8 /* UIImage+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GradientColor.h"; sourceTree = "<group>"; };
+		04189FB82244DC3D000819A8 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		04189FB92244DC3D000819A8 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		04189FBD2244DC91000819A8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		04189FBE2244DC91000819A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04189FC02244DC91000819A8 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		04189FC12244DC91000819A8 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
+		04189FC22244DC91000819A8 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		04189FC32244DC91000819A8 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
 		058F7F00B6BFA71DF61150FC /* Pods-LeancloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.release.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5844E6F10A7541693B8269C5 /* Pods-LeancloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeancloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,6 +236,7 @@
 		04189E99224490FF000819A8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				04189FB52244DC19000819A8 /* BaseNav+TabBar+VC */,
 				04189EFB22449AD6000819A8 /* GWNetWorkingTools */,
 				04189E9A224490FF000819A8 /* 3rd */,
 				04189E9B224490FF000819A8 /* 发布 */,
@@ -522,6 +539,39 @@
 			path = "定时器";
 			sourceTree = "<group>";
 		};
+		04189FB52244DC19000819A8 /* BaseNav+TabBar+VC */ = {
+			isa = PBXGroup;
+			children = (
+				04189FBC2244DC91000819A8 /* WRNavigationBar */,
+				04189FB82244DC3D000819A8 /* BaseNavigationController.h */,
+				04189FB92244DC3D000819A8 /* BaseNavigationController.m */,
+				04189FB72244DC3D000819A8 /* UIImage+GradientColor.h */,
+				04189FB62244DC3C000819A8 /* UIImage+GradientColor.m */,
+			);
+			path = "BaseNav+TabBar+VC";
+			sourceTree = "<group>";
+		};
+		04189FBC2244DC91000819A8 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				04189FBD2244DC91000819A8 /* LICENSE */,
+				04189FBE2244DC91000819A8 /* README.md */,
+				04189FBF2244DC91000819A8 /* WRNavigationBar */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		04189FBF2244DC91000819A8 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				04189FC02244DC91000819A8 /* WRCustomNavigationBar.h */,
+				04189FC12244DC91000819A8 /* WRCustomNavigationBar.m */,
+				04189FC22244DC91000819A8 /* WRNavigationBar.h */,
+				04189FC32244DC91000819A8 /* WRNavigationBar.m */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
 		ACCAD339983EC92CF815188A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -598,8 +648,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04189FC42244DC91000819A8 /* LICENSE in Resources */,
 				04189FAA2244C9E0000819A8 /* EBBannerView.xib in Resources */,
 				04189E9022448184000819A8 /* LaunchScreen.storyboard in Resources */,
+				04189FC52244DC91000819A8 /* README.md in Resources */,
 				04189F272244AB0C000819A8 /* A99588B8-38E7-4625-997E-99E8EF7D5FF0.png in Resources */,
 				04189E8D22448184000819A8 /* Assets.xcassets in Resources */,
 				04189E8B22448183000819A8 /* Main.storyboard in Resources */,
@@ -670,6 +722,7 @@
 				04189EA22244912F000819A8 /* MSXLoginViewController.m in Sources */,
 				04189F792244C656000819A8 /* LKImageSystemDecoder.m in Sources */,
 				04189E9322448184000819A8 /* main.m in Sources */,
+				04189FBB2244DC3D000819A8 /* BaseNavigationController.m in Sources */,
 				04189FB12244CF9B000819A8 /* HFDisplayLink.m in Sources */,
 				04189F8B2244C656000819A8 /* LKImageLogManager.m in Sources */,
 				04189F8C2244C656000819A8 /* LKImageManager.m in Sources */,
@@ -683,6 +736,7 @@
 				04189F7C2244C656000819A8 /* LKImageMemoryImageLoader.m in Sources */,
 				04189E8522448183000819A8 /* AppDelegate.m in Sources */,
 				04189FAB2244C9E0000819A8 /* EBBannerView.m in Sources */,
+				04189FBA2244DC3D000819A8 /* UIImage+GradientColor.m in Sources */,
 				04189F9B2244C98D000819A8 /* HFWeakObject.m in Sources */,
 				04189F772244C656000819A8 /* LKImageMemoryCache.mm in Sources */,
 				04189FAC2244C9E0000819A8 /* EBForeNotification.m in Sources */,
@@ -699,11 +753,13 @@
 				04189F852244C656000819A8 /* LKImageInfo.m in Sources */,
 				04189F802244C656000819A8 /* LKImageGrayProcessor.m in Sources */,
 				04189F832244C656000819A8 /* LKImageConfiguration.m in Sources */,
+				04189FC62244DC91000819A8 /* WRCustomNavigationBar.m in Sources */,
 				04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */,
 				04189F892244C656000819A8 /* LKImageDecoderManager.m in Sources */,
 				04189F9D2244C98D000819A8 /* HFTimer.m in Sources */,
 				04189F9A2244C98D000819A8 /* HFGCDTimer.m in Sources */,
 				04189FAD2244C9E0000819A8 /* UIImage+ColorAtPoint.m in Sources */,
+				04189FC72244DC91000819A8 /* WRNavigationBar.m in Sources */,
 				04189F872244C656000819A8 /* LKImageView.m in Sources */,
 				04189F822244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.m in Sources */,
 				04189F2222449AD6000819A8 /* amrFileCodec.mm in Sources */,
