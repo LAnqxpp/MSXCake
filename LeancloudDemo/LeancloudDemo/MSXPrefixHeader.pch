@@ -1,0 +1,24 @@
+//
+//  MSXPrefixHeader.pch
+//  LeancloudDemo
+//
+//  Created by mac on 2019/3/22.
+//  Copyright © 2019年 Robinson. All rights reserved.
+//
+
+#ifndef MSXPrefixHeader_pch
+#define MSXPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+// --------- 第三方SDK --------
+#import <AVOSCloud/AVOSCloud.h>
+
+
+
+
+//
+
+
+
+#endif /* MSXPrefixHeader_pch */
