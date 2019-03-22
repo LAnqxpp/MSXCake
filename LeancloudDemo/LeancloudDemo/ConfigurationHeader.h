@@ -11,7 +11,8 @@
 // 屏幕宽高
 #define SCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
 #define SCREENH_HEIGHT [UIScreen mainScreen].bounds.size.height
-
+/** define:屏幕的宽高比 */
+#define CURRENT_SIZE(_size) _size / 375.0 * SCREEN_WIDTH
 // 颜色
 #define WQQRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 #define WQQRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]

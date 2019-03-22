@@ -54,6 +54,7 @@
 		04189FAD2244C9E0000819A8 /* UIImage+ColorAtPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA62244C9E0000819A8 /* UIImage+ColorAtPoint.m */; };
 		04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */; };
 		04189FB12244CF9B000819A8 /* HFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB02244CF9B000819A8 /* HFDisplayLink.m */; };
+		04189FB42244D800000819A8 /* RJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB32244D800000819A8 /* RJTextField.m */; };
 		42FC1C625A4BF99C878EFAE1 /* libPods-LeancloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +159,8 @@
 		04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ContentSize.m"; sourceTree = "<group>"; };
 		04189FA92244C9E0000819A8 /* EBForeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBForeNotification.h; sourceTree = "<group>"; };
 		04189FB02244CF9B000819A8 /* HFDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDisplayLink.m; sourceTree = "<group>"; };
+		04189FB22244D7FF000819A8 /* RJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJTextField.h; sourceTree = "<group>"; };
+		04189FB32244D800000819A8 /* RJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJTextField.m; sourceTree = "<group>"; };
 		058F7F00B6BFA71DF61150FC /* Pods-LeancloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.release.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5844E6F10A7541693B8269C5 /* Pods-LeancloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeancloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +234,8 @@
 		04189E9A224490FF000819A8 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				04189FB22244D7FF000819A8 /* RJTextField.h */,
+				04189FB32244D800000819A8 /* RJTextField.m */,
 				04189FAF2244CB83000819A8 /* 定时器 */,
 				04189F9E2244C9E0000819A8 /* EBForeNotification */,
 			);
@@ -674,6 +679,7 @@
 				04189F7B2244C656000819A8 /* LKImageLocalFileLoader.m in Sources */,
 				04189F8D2244C656000819A8 /* LKImageProcessorManager.m in Sources */,
 				04189F8E2244C656000819A8 /* LKImagePriorityArray.m in Sources */,
+				04189FB42244D800000819A8 /* RJTextField.m in Sources */,
 				04189F7C2244C656000819A8 /* LKImageMemoryImageLoader.m in Sources */,
 				04189E8522448183000819A8 /* AppDelegate.m in Sources */,
 				04189FAB2244C9E0000819A8 /* EBBannerView.m in Sources */,
