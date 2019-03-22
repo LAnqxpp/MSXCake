@@ -19,6 +19,41 @@
 		04189F2422449AD6000819A8 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04189F1222449AD6000819A8 /* libopencore-amrwb.a */; };
 		04189F2522449AD7000819A8 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04189F1A22449AD6000819A8 /* VoiceConverter.mm */; };
 		04189F272244AB0C000819A8 /* A99588B8-38E7-4625-997E-99E8EF7D5FF0.png in Resources */ = {isa = PBXBuildFile; fileRef = 04189F262244AB0C000819A8 /* A99588B8-38E7-4625-997E-99E8EF7D5FF0.png */; };
+		04189F772244C656000819A8 /* LKImageMemoryCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04189F2F2244C656000819A8 /* LKImageMemoryCache.mm */; };
+		04189F782244C656000819A8 /* LKImageSmartCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F312244C656000819A8 /* LKImageSmartCache.m */; };
+		04189F792244C656000819A8 /* LKImageSystemDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F342244C656000819A8 /* LKImageSystemDecoder.m */; };
+		04189F7A2244C656000819A8 /* LKImageBundleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F372244C656000819A8 /* LKImageBundleLoader.m */; };
+		04189F7B2244C656000819A8 /* LKImageLocalFileLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F392244C656000819A8 /* LKImageLocalFileLoader.m */; };
+		04189F7C2244C656000819A8 /* LKImageMemoryImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F3B2244C656000819A8 /* LKImageMemoryImageLoader.m */; };
+		04189F7D2244C656000819A8 /* LKImageNetworkFileLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F3D2244C656000819A8 /* LKImageNetworkFileLoader.m */; };
+		04189F7E2244C656000819A8 /* LKImagePhotoKitLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F3F2244C656000819A8 /* LKImagePhotoKitLoader.m */; };
+		04189F7F2244C656000819A8 /* LKImageBlurProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F422244C656000819A8 /* LKImageBlurProcessor.m */; };
+		04189F802244C656000819A8 /* LKImageGrayProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F442244C656000819A8 /* LKImageGrayProcessor.m */; };
+		04189F812244C656000819A8 /* LKImagePredrawProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F462244C656000819A8 /* LKImagePredrawProcessor.m */; };
+		04189F822244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F482244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.m */; };
+		04189F832244C656000819A8 /* LKImageConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F4C2244C656000819A8 /* LKImageConfiguration.m */; };
+		04189F842244C656000819A8 /* LKImageError.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F4E2244C656000819A8 /* LKImageError.m */; };
+		04189F852244C656000819A8 /* LKImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F502244C656000819A8 /* LKImageInfo.m */; };
+		04189F862244C656000819A8 /* LKImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F522244C656000819A8 /* LKImageRequest.m */; };
+		04189F872244C656000819A8 /* LKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F542244C656000819A8 /* LKImageView.m */; };
+		04189F882244C656000819A8 /* LKImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F582244C656000819A8 /* LKImageCacheManager.m */; };
+		04189F892244C656000819A8 /* LKImageDecoderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F5A2244C656000819A8 /* LKImageDecoderManager.m */; };
+		04189F8A2244C656000819A8 /* LKImageLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F5C2244C656000819A8 /* LKImageLoaderManager.m */; };
+		04189F8B2244C656000819A8 /* LKImageLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F5E2244C656000819A8 /* LKImageLogManager.m */; };
+		04189F8C2244C656000819A8 /* LKImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F602244C656000819A8 /* LKImageManager.m */; };
+		04189F8D2244C656000819A8 /* LKImageProcessorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F622244C656000819A8 /* LKImageProcessorManager.m */; };
+		04189F8E2244C656000819A8 /* LKImagePriorityArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F672244C656000819A8 /* LKImagePriorityArray.m */; };
+		04189F8F2244C656000819A8 /* LKImageMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F6C2244C656000819A8 /* LKImageMonitor.m */; };
+		04189F902244C656000819A8 /* LKImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F6E2244C656000819A8 /* LKImageUtil.m */; };
+		04189F9A2244C98D000819A8 /* HFGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F922244C98B000819A8 /* HFGCDTimer.m */; };
+		04189F9B2244C98D000819A8 /* HFWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F932244C98C000819A8 /* HFWeakObject.m */; };
+		04189F9C2244C98D000819A8 /* HFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F952244C98C000819A8 /* HFDisplayLink.m */; };
+		04189F9D2244C98D000819A8 /* HFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F982244C98D000819A8 /* HFTimer.m */; };
+		04189FAA2244C9E0000819A8 /* EBBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04189FA02244C9E0000819A8 /* EBBannerView.xib */; };
+		04189FAB2244C9E0000819A8 /* EBBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA32244C9E0000819A8 /* EBBannerView.m */; };
+		04189FAC2244C9E0000819A8 /* EBForeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA42244C9E0000819A8 /* EBForeNotification.m */; };
+		04189FAD2244C9E0000819A8 /* UIImage+ColorAtPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA62244C9E0000819A8 /* UIImage+ColorAtPoint.m */; };
+		04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */; };
 		42FC1C625A4BF99C878EFAE1 /* libPods-LeancloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +83,81 @@
 		04189F1A22449AD6000819A8 /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
 		04189F262244AB0C000819A8 /* A99588B8-38E7-4625-997E-99E8EF7D5FF0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A99588B8-38E7-4625-997E-99E8EF7D5FF0.png"; sourceTree = "<group>"; };
 		04189F2A2244C248000819A8 /* ConfigurationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationHeader.h; sourceTree = "<group>"; };
+		04189F2E2244C656000819A8 /* LKImageMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageMemoryCache.h; sourceTree = "<group>"; };
+		04189F2F2244C656000819A8 /* LKImageMemoryCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LKImageMemoryCache.mm; sourceTree = "<group>"; };
+		04189F302244C656000819A8 /* LKImageSmartCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageSmartCache.h; sourceTree = "<group>"; };
+		04189F312244C656000819A8 /* LKImageSmartCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageSmartCache.m; sourceTree = "<group>"; };
+		04189F332244C656000819A8 /* LKImageSystemDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageSystemDecoder.h; sourceTree = "<group>"; };
+		04189F342244C656000819A8 /* LKImageSystemDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageSystemDecoder.m; sourceTree = "<group>"; };
+		04189F362244C656000819A8 /* LKImageBundleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageBundleLoader.h; sourceTree = "<group>"; };
+		04189F372244C656000819A8 /* LKImageBundleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageBundleLoader.m; sourceTree = "<group>"; };
+		04189F382244C656000819A8 /* LKImageLocalFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageLocalFileLoader.h; sourceTree = "<group>"; };
+		04189F392244C656000819A8 /* LKImageLocalFileLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageLocalFileLoader.m; sourceTree = "<group>"; };
+		04189F3A2244C656000819A8 /* LKImageMemoryImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageMemoryImageLoader.h; sourceTree = "<group>"; };
+		04189F3B2244C656000819A8 /* LKImageMemoryImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageMemoryImageLoader.m; sourceTree = "<group>"; };
+		04189F3C2244C656000819A8 /* LKImageNetworkFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageNetworkFileLoader.h; sourceTree = "<group>"; };
+		04189F3D2244C656000819A8 /* LKImageNetworkFileLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageNetworkFileLoader.m; sourceTree = "<group>"; };
+		04189F3E2244C656000819A8 /* LKImagePhotoKitLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImagePhotoKitLoader.h; sourceTree = "<group>"; };
+		04189F3F2244C656000819A8 /* LKImagePhotoKitLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImagePhotoKitLoader.m; sourceTree = "<group>"; };
+		04189F412244C656000819A8 /* LKImageBlurProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageBlurProcessor.h; sourceTree = "<group>"; };
+		04189F422244C656000819A8 /* LKImageBlurProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageBlurProcessor.m; sourceTree = "<group>"; };
+		04189F432244C656000819A8 /* LKImageGrayProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageGrayProcessor.h; sourceTree = "<group>"; };
+		04189F442244C656000819A8 /* LKImageGrayProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageGrayProcessor.m; sourceTree = "<group>"; };
+		04189F452244C656000819A8 /* LKImagePredrawProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImagePredrawProcessor.h; sourceTree = "<group>"; };
+		04189F462244C656000819A8 /* LKImagePredrawProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImagePredrawProcessor.m; sourceTree = "<group>"; };
+		04189F472244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageSpritesToMutipleImagesProcessor.h; sourceTree = "<group>"; };
+		04189F482244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageSpritesToMutipleImagesProcessor.m; sourceTree = "<group>"; };
+		04189F4B2244C656000819A8 /* LKImageConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageConfiguration.h; sourceTree = "<group>"; };
+		04189F4C2244C656000819A8 /* LKImageConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageConfiguration.m; sourceTree = "<group>"; };
+		04189F4D2244C656000819A8 /* LKImageError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageError.h; sourceTree = "<group>"; };
+		04189F4E2244C656000819A8 /* LKImageError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageError.m; sourceTree = "<group>"; };
+		04189F4F2244C656000819A8 /* LKImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageInfo.h; sourceTree = "<group>"; };
+		04189F502244C656000819A8 /* LKImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageInfo.m; sourceTree = "<group>"; };
+		04189F512244C656000819A8 /* LKImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageRequest.h; sourceTree = "<group>"; };
+		04189F522244C656000819A8 /* LKImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageRequest.m; sourceTree = "<group>"; };
+		04189F532244C656000819A8 /* LKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageView.h; sourceTree = "<group>"; };
+		04189F542244C656000819A8 /* LKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageView.m; sourceTree = "<group>"; };
+		04189F552244C656000819A8 /* LKImageDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageDefine.h; sourceTree = "<group>"; };
+		04189F572244C656000819A8 /* LKImageCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageCacheManager.h; sourceTree = "<group>"; };
+		04189F582244C656000819A8 /* LKImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageCacheManager.m; sourceTree = "<group>"; };
+		04189F592244C656000819A8 /* LKImageDecoderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageDecoderManager.h; sourceTree = "<group>"; };
+		04189F5A2244C656000819A8 /* LKImageDecoderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageDecoderManager.m; sourceTree = "<group>"; };
+		04189F5B2244C656000819A8 /* LKImageLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageLoaderManager.h; sourceTree = "<group>"; };
+		04189F5C2244C656000819A8 /* LKImageLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageLoaderManager.m; sourceTree = "<group>"; };
+		04189F5D2244C656000819A8 /* LKImageLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageLogManager.h; sourceTree = "<group>"; };
+		04189F5E2244C656000819A8 /* LKImageLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageLogManager.m; sourceTree = "<group>"; };
+		04189F5F2244C656000819A8 /* LKImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageManager.h; sourceTree = "<group>"; };
+		04189F602244C656000819A8 /* LKImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageManager.m; sourceTree = "<group>"; };
+		04189F612244C656000819A8 /* LKImageProcessorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageProcessorManager.h; sourceTree = "<group>"; };
+		04189F622244C656000819A8 /* LKImageProcessorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageProcessorManager.m; sourceTree = "<group>"; };
+		04189F642244C656000819A8 /* LKImageLoaderManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKImageLoaderManager+Private.h"; sourceTree = "<group>"; };
+		04189F652244C656000819A8 /* LKImageMonitor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKImageMonitor+Private.h"; sourceTree = "<group>"; };
+		04189F662244C656000819A8 /* LKImagePriorityArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImagePriorityArray.h; sourceTree = "<group>"; };
+		04189F672244C656000819A8 /* LKImagePriorityArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImagePriorityArray.m; sourceTree = "<group>"; };
+		04189F682244C656000819A8 /* LKImagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImagePrivate.h; sourceTree = "<group>"; };
+		04189F692244C656000819A8 /* LKImageRequest+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKImageRequest+Private.h"; sourceTree = "<group>"; };
+		04189F6B2244C656000819A8 /* LKImageMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageMonitor.h; sourceTree = "<group>"; };
+		04189F6C2244C656000819A8 /* LKImageMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageMonitor.m; sourceTree = "<group>"; };
+		04189F6D2244C656000819A8 /* LKImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageUtil.h; sourceTree = "<group>"; };
+		04189F6E2244C656000819A8 /* LKImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKImageUtil.m; sourceTree = "<group>"; };
+		04189F702244C656000819A8 /* LKImageKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKImageKit.h; sourceTree = "<group>"; };
+		04189F922244C98B000819A8 /* HFGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFGCDTimer.m; sourceTree = "<group>"; };
+		04189F932244C98C000819A8 /* HFWeakObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFWeakObject.m; sourceTree = "<group>"; };
+		04189F942244C98C000819A8 /* HFTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTimer.h; sourceTree = "<group>"; };
+		04189F952244C98C000819A8 /* HFDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDisplayLink.m; sourceTree = "<group>"; };
+		04189F962244C98C000819A8 /* HFWeakObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFWeakObject.h; sourceTree = "<group>"; };
+		04189F972244C98D000819A8 /* HFGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFGCDTimer.h; sourceTree = "<group>"; };
+		04189F982244C98D000819A8 /* HFTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTimer.m; sourceTree = "<group>"; };
+		04189F992244C98D000819A8 /* HFDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDisplayLink.h; sourceTree = "<group>"; };
+		04189FA12244C9E0000819A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/EBBannerView.xib; sourceTree = "<group>"; };
+		04189FA22244C9E0000819A8 /* EBBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerView.h; sourceTree = "<group>"; };
+		04189FA32244C9E0000819A8 /* EBBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerView.m; sourceTree = "<group>"; };
+		04189FA42244C9E0000819A8 /* EBForeNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBForeNotification.m; sourceTree = "<group>"; };
+		04189FA52244C9E0000819A8 /* UIImage+ColorAtPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPoint.h"; sourceTree = "<group>"; };
+		04189FA62244C9E0000819A8 /* UIImage+ColorAtPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPoint.m"; sourceTree = "<group>"; };
+		04189FA72244C9E0000819A8 /* UILabel+ContentSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ContentSize.h"; sourceTree = "<group>"; };
+		04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ContentSize.m"; sourceTree = "<group>"; };
+		04189FA92244C9E0000819A8 /* EBForeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBForeNotification.h; sourceTree = "<group>"; };
 		058F7F00B6BFA71DF61150FC /* Pods-LeancloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.release.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5844E6F10A7541693B8269C5 /* Pods-LeancloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeancloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +231,15 @@
 		04189E9A224490FF000819A8 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				04189F9E2244C9E0000819A8 /* EBForeNotification */,
+				04189F992244C98D000819A8 /* HFDisplayLink.h */,
+				04189F952244C98C000819A8 /* HFDisplayLink.m */,
+				04189F972244C98D000819A8 /* HFGCDTimer.h */,
+				04189F922244C98B000819A8 /* HFGCDTimer.m */,
+				04189F942244C98C000819A8 /* HFTimer.h */,
+				04189F982244C98D000819A8 /* HFTimer.m */,
+				04189F962244C98C000819A8 /* HFWeakObject.h */,
+				04189F932244C98C000819A8 /* HFWeakObject.m */,
 			);
 			path = 3rd;
 			sourceTree = "<group>";
@@ -135,6 +254,7 @@
 		04189E9C224490FF000819A8 /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				04189F2B2244C656000819A8 /* LKImageKit */,
 			);
 			path = "工具";
 			sourceTree = "<group>";
@@ -220,6 +340,175 @@
 			path = "opencore-amrwb";
 			sourceTree = "<group>";
 		};
+		04189F2B2244C656000819A8 /* LKImageKit */ = {
+			isa = PBXGroup;
+			children = (
+				04189F2C2244C656000819A8 /* Components */,
+				04189F492244C656000819A8 /* Core */,
+				04189F702244C656000819A8 /* LKImageKit.h */,
+			);
+			path = LKImageKit;
+			sourceTree = "<group>";
+		};
+		04189F2C2244C656000819A8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04189F2D2244C656000819A8 /* Cache */,
+				04189F322244C656000819A8 /* Decoder */,
+				04189F352244C656000819A8 /* Loader */,
+				04189F402244C656000819A8 /* Processor */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		04189F2D2244C656000819A8 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				04189F2E2244C656000819A8 /* LKImageMemoryCache.h */,
+				04189F2F2244C656000819A8 /* LKImageMemoryCache.mm */,
+				04189F302244C656000819A8 /* LKImageSmartCache.h */,
+				04189F312244C656000819A8 /* LKImageSmartCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		04189F322244C656000819A8 /* Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				04189F332244C656000819A8 /* LKImageSystemDecoder.h */,
+				04189F342244C656000819A8 /* LKImageSystemDecoder.m */,
+			);
+			path = Decoder;
+			sourceTree = "<group>";
+		};
+		04189F352244C656000819A8 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				04189F362244C656000819A8 /* LKImageBundleLoader.h */,
+				04189F372244C656000819A8 /* LKImageBundleLoader.m */,
+				04189F382244C656000819A8 /* LKImageLocalFileLoader.h */,
+				04189F392244C656000819A8 /* LKImageLocalFileLoader.m */,
+				04189F3A2244C656000819A8 /* LKImageMemoryImageLoader.h */,
+				04189F3B2244C656000819A8 /* LKImageMemoryImageLoader.m */,
+				04189F3C2244C656000819A8 /* LKImageNetworkFileLoader.h */,
+				04189F3D2244C656000819A8 /* LKImageNetworkFileLoader.m */,
+				04189F3E2244C656000819A8 /* LKImagePhotoKitLoader.h */,
+				04189F3F2244C656000819A8 /* LKImagePhotoKitLoader.m */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		04189F402244C656000819A8 /* Processor */ = {
+			isa = PBXGroup;
+			children = (
+				04189F412244C656000819A8 /* LKImageBlurProcessor.h */,
+				04189F422244C656000819A8 /* LKImageBlurProcessor.m */,
+				04189F432244C656000819A8 /* LKImageGrayProcessor.h */,
+				04189F442244C656000819A8 /* LKImageGrayProcessor.m */,
+				04189F452244C656000819A8 /* LKImagePredrawProcessor.h */,
+				04189F462244C656000819A8 /* LKImagePredrawProcessor.m */,
+				04189F472244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.h */,
+				04189F482244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.m */,
+			);
+			path = Processor;
+			sourceTree = "<group>";
+		};
+		04189F492244C656000819A8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04189F4A2244C656000819A8 /* Class */,
+				04189F552244C656000819A8 /* LKImageDefine.h */,
+				04189F562244C656000819A8 /* Manager */,
+				04189F632244C656000819A8 /* Private */,
+				04189F6A2244C656000819A8 /* Utility */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		04189F4A2244C656000819A8 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				04189F4B2244C656000819A8 /* LKImageConfiguration.h */,
+				04189F4C2244C656000819A8 /* LKImageConfiguration.m */,
+				04189F4D2244C656000819A8 /* LKImageError.h */,
+				04189F4E2244C656000819A8 /* LKImageError.m */,
+				04189F4F2244C656000819A8 /* LKImageInfo.h */,
+				04189F502244C656000819A8 /* LKImageInfo.m */,
+				04189F512244C656000819A8 /* LKImageRequest.h */,
+				04189F522244C656000819A8 /* LKImageRequest.m */,
+				04189F532244C656000819A8 /* LKImageView.h */,
+				04189F542244C656000819A8 /* LKImageView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		04189F562244C656000819A8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				04189F572244C656000819A8 /* LKImageCacheManager.h */,
+				04189F582244C656000819A8 /* LKImageCacheManager.m */,
+				04189F592244C656000819A8 /* LKImageDecoderManager.h */,
+				04189F5A2244C656000819A8 /* LKImageDecoderManager.m */,
+				04189F5B2244C656000819A8 /* LKImageLoaderManager.h */,
+				04189F5C2244C656000819A8 /* LKImageLoaderManager.m */,
+				04189F5D2244C656000819A8 /* LKImageLogManager.h */,
+				04189F5E2244C656000819A8 /* LKImageLogManager.m */,
+				04189F5F2244C656000819A8 /* LKImageManager.h */,
+				04189F602244C656000819A8 /* LKImageManager.m */,
+				04189F612244C656000819A8 /* LKImageProcessorManager.h */,
+				04189F622244C656000819A8 /* LKImageProcessorManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		04189F632244C656000819A8 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				04189F642244C656000819A8 /* LKImageLoaderManager+Private.h */,
+				04189F652244C656000819A8 /* LKImageMonitor+Private.h */,
+				04189F662244C656000819A8 /* LKImagePriorityArray.h */,
+				04189F672244C656000819A8 /* LKImagePriorityArray.m */,
+				04189F682244C656000819A8 /* LKImagePrivate.h */,
+				04189F692244C656000819A8 /* LKImageRequest+Private.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		04189F6A2244C656000819A8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				04189F6B2244C656000819A8 /* LKImageMonitor.h */,
+				04189F6C2244C656000819A8 /* LKImageMonitor.m */,
+				04189F6D2244C656000819A8 /* LKImageUtil.h */,
+				04189F6E2244C656000819A8 /* LKImageUtil.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		04189F9E2244C9E0000819A8 /* EBForeNotification */ = {
+			isa = PBXGroup;
+			children = (
+				04189F9F2244C9E0000819A8 /* Classes */,
+				04189FA92244C9E0000819A8 /* EBForeNotification.h */,
+			);
+			path = EBForeNotification;
+			sourceTree = "<group>";
+		};
+		04189F9F2244C9E0000819A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04189FA02244C9E0000819A8 /* EBBannerView.xib */,
+				04189FA22244C9E0000819A8 /* EBBannerView.h */,
+				04189FA32244C9E0000819A8 /* EBBannerView.m */,
+				04189FA42244C9E0000819A8 /* EBForeNotification.m */,
+				04189FA52244C9E0000819A8 /* UIImage+ColorAtPoint.h */,
+				04189FA62244C9E0000819A8 /* UIImage+ColorAtPoint.m */,
+				04189FA72244C9E0000819A8 /* UILabel+ContentSize.h */,
+				04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		ACCAD339983EC92CF815188A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +585,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04189FAA2244C9E0000819A8 /* EBBannerView.xib in Resources */,
 				04189E9022448184000819A8 /* LaunchScreen.storyboard in Resources */,
 				04189F272244AB0C000819A8 /* A99588B8-38E7-4625-997E-99E8EF7D5FF0.png in Resources */,
 				04189E8D22448184000819A8 /* Assets.xcassets in Resources */,
@@ -363,11 +653,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04189F902244C656000819A8 /* LKImageUtil.m in Sources */,
 				04189EA22244912F000819A8 /* MSXLoginViewController.m in Sources */,
+				04189F792244C656000819A8 /* LKImageSystemDecoder.m in Sources */,
 				04189E9322448184000819A8 /* main.m in Sources */,
+				04189F8B2244C656000819A8 /* LKImageLogManager.m in Sources */,
+				04189F8C2244C656000819A8 /* LKImageManager.m in Sources */,
 				04189F2522449AD7000819A8 /* VoiceConverter.mm in Sources */,
+				04189F782244C656000819A8 /* LKImageSmartCache.m in Sources */,
+				04189F8A2244C656000819A8 /* LKImageLoaderManager.m in Sources */,
+				04189F7B2244C656000819A8 /* LKImageLocalFileLoader.m in Sources */,
+				04189F8D2244C656000819A8 /* LKImageProcessorManager.m in Sources */,
+				04189F8E2244C656000819A8 /* LKImagePriorityArray.m in Sources */,
+				04189F7C2244C656000819A8 /* LKImageMemoryImageLoader.m in Sources */,
 				04189E8522448183000819A8 /* AppDelegate.m in Sources */,
+				04189FAB2244C9E0000819A8 /* EBBannerView.m in Sources */,
+				04189F9B2244C98D000819A8 /* HFWeakObject.m in Sources */,
+				04189F772244C656000819A8 /* LKImageMemoryCache.mm in Sources */,
+				04189FAC2244C9E0000819A8 /* EBForeNotification.m in Sources */,
+				04189F842244C656000819A8 /* LKImageError.m in Sources */,
+				04189F7E2244C656000819A8 /* LKImagePhotoKitLoader.m in Sources */,
+				04189F8F2244C656000819A8 /* LKImageMonitor.m in Sources */,
+				04189F7F2244C656000819A8 /* LKImageBlurProcessor.m in Sources */,
+				04189F862244C656000819A8 /* LKImageRequest.m in Sources */,
+				04189F812244C656000819A8 /* LKImagePredrawProcessor.m in Sources */,
+				04189F7D2244C656000819A8 /* LKImageNetworkFileLoader.m in Sources */,
+				04189F7A2244C656000819A8 /* LKImageBundleLoader.m in Sources */,
 				04189F2122449AD6000819A8 /* GWNetWorking.m in Sources */,
+				04189F882244C656000819A8 /* LKImageCacheManager.m in Sources */,
+				04189F852244C656000819A8 /* LKImageInfo.m in Sources */,
+				04189F802244C656000819A8 /* LKImageGrayProcessor.m in Sources */,
+				04189F832244C656000819A8 /* LKImageConfiguration.m in Sources */,
+				04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */,
+				04189F9C2244C98D000819A8 /* HFDisplayLink.m in Sources */,
+				04189F892244C656000819A8 /* LKImageDecoderManager.m in Sources */,
+				04189F9D2244C98D000819A8 /* HFTimer.m in Sources */,
+				04189F9A2244C98D000819A8 /* HFGCDTimer.m in Sources */,
+				04189FAD2244C9E0000819A8 /* UIImage+ColorAtPoint.m in Sources */,
+				04189F872244C656000819A8 /* LKImageView.m in Sources */,
+				04189F822244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.m in Sources */,
 				04189F2222449AD6000819A8 /* amrFileCodec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +713,14 @@
 				04189E8F22448184000819A8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04189FA02244C9E0000819A8 /* EBBannerView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04189FA12244C9E0000819A8 /* Base */,
+			);
+			name = EBBannerView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

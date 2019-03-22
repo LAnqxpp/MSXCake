@@ -19,13 +19,27 @@
     // 放在 SDK 初始化语句 [AVOSCloud setApplicationId:] 后面，只需要调用一次即可
     [AVOSCloud setAllLogsEnabled:YES];
     
-    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dddd:) name:EBBannerViewDidClick object:nil];
+
     
     
     // Override point for customization after application launch.
     return YES;
 }
+//ios7 only
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    [EBForeNotification handleRemoteNotification:userInfo soundID:1312 isIos10:NO];
+    completionHandler(UIBackgroundFetchResultNewData);
+}
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    [EBForeNotification handleRemoteNotification:userInfo soundID:1312 isIos10:NO];
+}
 
+
+
+-(void)dddd:(NSNotification*)noti{
+    NSLog(@"ddd,%@",noti);
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
