@@ -47,6 +47,7 @@
 		04189F1922449AD6000819A8 /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
 		04189F1A22449AD6000819A8 /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
 		04189F262244AB0C000819A8 /* A99588B8-38E7-4625-997E-99E8EF7D5FF0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A99588B8-38E7-4625-997E-99E8EF7D5FF0.png"; sourceTree = "<group>"; };
+		04189F2A2244C248000819A8 /* ConfigurationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationHeader.h; sourceTree = "<group>"; };
 		058F7F00B6BFA71DF61150FC /* Pods-LeancloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.release.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5844E6F10A7541693B8269C5 /* Pods-LeancloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeancloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +94,7 @@
 				04189EA02244912F000819A8 /* MSXLoginViewController.h */,
 				04189EA12244912F000819A8 /* MSXLoginViewController.m */,
 				04189EA322449160000819A8 /* MSXPrefixHeader.pch */,
+				04189F2A2244C248000819A8 /* ConfigurationHeader.h */,
 				04189E8922448183000819A8 /* Main.storyboard */,
 				04189E8C22448184000819A8 /* Assets.xcassets */,
 				04189E8E22448184000819A8 /* LaunchScreen.storyboard */,
