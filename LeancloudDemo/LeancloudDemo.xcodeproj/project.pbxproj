@@ -61,6 +61,10 @@
 		04189FC52244DC91000819A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04189FBE2244DC91000819A8 /* README.md */; };
 		04189FC62244DC91000819A8 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FC12244DC91000819A8 /* WRCustomNavigationBar.m */; };
 		04189FC72244DC91000819A8 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FC32244DC91000819A8 /* WRNavigationBar.m */; };
+		04189FE42244E40F000819A8 /* MSXMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FE32244E40F000819A8 /* MSXMyViewController.m */; };
+		04189FE72244E421000819A8 /* MSXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FE62244E421000819A8 /* MSXMainViewController.m */; };
+		04189FEA2244E450000819A8 /* MSXProductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FE92244E450000819A8 /* MSXProductionViewController.m */; };
+		04189FED2244E485000819A8 /* MSXTaskStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FEC2244E485000819A8 /* MSXTaskStatusViewController.m */; };
 		42FC1C625A4BF99C878EFAE1 /* libPods-LeancloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -177,6 +181,14 @@
 		04189FC12244DC91000819A8 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
 		04189FC22244DC91000819A8 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
 		04189FC32244DC91000819A8 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		04189FE22244E40F000819A8 /* MSXMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSXMyViewController.h; sourceTree = "<group>"; };
+		04189FE32244E40F000819A8 /* MSXMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSXMyViewController.m; sourceTree = "<group>"; };
+		04189FE52244E421000819A8 /* MSXMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSXMainViewController.h; sourceTree = "<group>"; };
+		04189FE62244E421000819A8 /* MSXMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSXMainViewController.m; sourceTree = "<group>"; };
+		04189FE82244E450000819A8 /* MSXProductionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSXProductionViewController.h; sourceTree = "<group>"; };
+		04189FE92244E450000819A8 /* MSXProductionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSXProductionViewController.m; sourceTree = "<group>"; };
+		04189FEB2244E485000819A8 /* MSXTaskStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSXTaskStatusViewController.h; sourceTree = "<group>"; };
+		04189FEC2244E485000819A8 /* MSXTaskStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSXTaskStatusViewController.m; sourceTree = "<group>"; };
 		058F7F00B6BFA71DF61150FC /* Pods-LeancloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.release.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5844E6F10A7541693B8269C5 /* Pods-LeancloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeancloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,6 +274,8 @@
 		04189E9B224490FF000819A8 /* 发布 */ = {
 			isa = PBXGroup;
 			children = (
+				04189FE82244E450000819A8 /* MSXProductionViewController.h */,
+				04189FE92244E450000819A8 /* MSXProductionViewController.m */,
 			);
 			path = "发布";
 			sourceTree = "<group>";
@@ -277,6 +291,8 @@
 		04189E9D224490FF000819A8 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				04189FE22244E40F000819A8 /* MSXMyViewController.h */,
+				04189FE32244E40F000819A8 /* MSXMyViewController.m */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -284,6 +300,8 @@
 		04189E9E224490FF000819A8 /* 状态跟进 */ = {
 			isa = PBXGroup;
 			children = (
+				04189FEB2244E485000819A8 /* MSXTaskStatusViewController.h */,
+				04189FEC2244E485000819A8 /* MSXTaskStatusViewController.m */,
 			);
 			path = "状态跟进";
 			sourceTree = "<group>";
@@ -291,6 +309,8 @@
 		04189E9F224490FF000819A8 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				04189FE52244E421000819A8 /* MSXMainViewController.h */,
+				04189FE62244E421000819A8 /* MSXMainViewController.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -721,9 +741,11 @@
 				04189F902244C656000819A8 /* LKImageUtil.m in Sources */,
 				04189EA22244912F000819A8 /* MSXLoginViewController.m in Sources */,
 				04189F792244C656000819A8 /* LKImageSystemDecoder.m in Sources */,
+				04189FE42244E40F000819A8 /* MSXMyViewController.m in Sources */,
 				04189E9322448184000819A8 /* main.m in Sources */,
 				04189FBB2244DC3D000819A8 /* BaseNavigationController.m in Sources */,
 				04189FB12244CF9B000819A8 /* HFDisplayLink.m in Sources */,
+				04189FE72244E421000819A8 /* MSXMainViewController.m in Sources */,
 				04189F8B2244C656000819A8 /* LKImageLogManager.m in Sources */,
 				04189F8C2244C656000819A8 /* LKImageManager.m in Sources */,
 				04189F2522449AD7000819A8 /* VoiceConverter.mm in Sources */,
@@ -733,6 +755,7 @@
 				04189F8D2244C656000819A8 /* LKImageProcessorManager.m in Sources */,
 				04189F8E2244C656000819A8 /* LKImagePriorityArray.m in Sources */,
 				04189FB42244D800000819A8 /* RJTextField.m in Sources */,
+				04189FED2244E485000819A8 /* MSXTaskStatusViewController.m in Sources */,
 				04189F7C2244C656000819A8 /* LKImageMemoryImageLoader.m in Sources */,
 				04189E8522448183000819A8 /* AppDelegate.m in Sources */,
 				04189FAB2244C9E0000819A8 /* EBBannerView.m in Sources */,
@@ -754,6 +777,7 @@
 				04189F802244C656000819A8 /* LKImageGrayProcessor.m in Sources */,
 				04189F832244C656000819A8 /* LKImageConfiguration.m in Sources */,
 				04189FC62244DC91000819A8 /* WRCustomNavigationBar.m in Sources */,
+				04189FEA2244E450000819A8 /* MSXProductionViewController.m in Sources */,
 				04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */,
 				04189F892244C656000819A8 /* LKImageDecoderManager.m in Sources */,
 				04189F9D2244C98D000819A8 /* HFTimer.m in Sources */,
