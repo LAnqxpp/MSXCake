@@ -47,13 +47,13 @@
 		04189F902244C656000819A8 /* LKImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F6E2244C656000819A8 /* LKImageUtil.m */; };
 		04189F9A2244C98D000819A8 /* HFGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F922244C98B000819A8 /* HFGCDTimer.m */; };
 		04189F9B2244C98D000819A8 /* HFWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F932244C98C000819A8 /* HFWeakObject.m */; };
-		04189F9C2244C98D000819A8 /* HFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F952244C98C000819A8 /* HFDisplayLink.m */; };
 		04189F9D2244C98D000819A8 /* HFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189F982244C98D000819A8 /* HFTimer.m */; };
 		04189FAA2244C9E0000819A8 /* EBBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04189FA02244C9E0000819A8 /* EBBannerView.xib */; };
 		04189FAB2244C9E0000819A8 /* EBBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA32244C9E0000819A8 /* EBBannerView.m */; };
 		04189FAC2244C9E0000819A8 /* EBForeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA42244C9E0000819A8 /* EBForeNotification.m */; };
 		04189FAD2244C9E0000819A8 /* UIImage+ColorAtPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA62244C9E0000819A8 /* UIImage+ColorAtPoint.m */; };
 		04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */; };
+		04189FB12244CF9B000819A8 /* HFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB02244CF9B000819A8 /* HFDisplayLink.m */; };
 		42FC1C625A4BF99C878EFAE1 /* libPods-LeancloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -144,7 +144,6 @@
 		04189F922244C98B000819A8 /* HFGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFGCDTimer.m; sourceTree = "<group>"; };
 		04189F932244C98C000819A8 /* HFWeakObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFWeakObject.m; sourceTree = "<group>"; };
 		04189F942244C98C000819A8 /* HFTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTimer.h; sourceTree = "<group>"; };
-		04189F952244C98C000819A8 /* HFDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDisplayLink.m; sourceTree = "<group>"; };
 		04189F962244C98C000819A8 /* HFWeakObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFWeakObject.h; sourceTree = "<group>"; };
 		04189F972244C98D000819A8 /* HFGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFGCDTimer.h; sourceTree = "<group>"; };
 		04189F982244C98D000819A8 /* HFTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTimer.m; sourceTree = "<group>"; };
@@ -158,6 +157,7 @@
 		04189FA72244C9E0000819A8 /* UILabel+ContentSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ContentSize.h"; sourceTree = "<group>"; };
 		04189FA82244C9E0000819A8 /* UILabel+ContentSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ContentSize.m"; sourceTree = "<group>"; };
 		04189FA92244C9E0000819A8 /* EBForeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBForeNotification.h; sourceTree = "<group>"; };
+		04189FB02244CF9B000819A8 /* HFDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDisplayLink.m; sourceTree = "<group>"; };
 		058F7F00B6BFA71DF61150FC /* Pods-LeancloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.release.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5844E6F10A7541693B8269C5 /* Pods-LeancloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeancloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -506,7 +506,7 @@
 			isa = PBXGroup;
 			children = (
 				04189F992244C98D000819A8 /* HFDisplayLink.h */,
-				04189F952244C98C000819A8 /* HFDisplayLink.m */,
+				04189FB02244CF9B000819A8 /* HFDisplayLink.m */,
 				04189F972244C98D000819A8 /* HFGCDTimer.h */,
 				04189F922244C98B000819A8 /* HFGCDTimer.m */,
 				04189F942244C98C000819A8 /* HFTimer.h */,
@@ -665,6 +665,7 @@
 				04189EA22244912F000819A8 /* MSXLoginViewController.m in Sources */,
 				04189F792244C656000819A8 /* LKImageSystemDecoder.m in Sources */,
 				04189E9322448184000819A8 /* main.m in Sources */,
+				04189FB12244CF9B000819A8 /* HFDisplayLink.m in Sources */,
 				04189F8B2244C656000819A8 /* LKImageLogManager.m in Sources */,
 				04189F8C2244C656000819A8 /* LKImageManager.m in Sources */,
 				04189F2522449AD7000819A8 /* VoiceConverter.mm in Sources */,
@@ -693,7 +694,6 @@
 				04189F802244C656000819A8 /* LKImageGrayProcessor.m in Sources */,
 				04189F832244C656000819A8 /* LKImageConfiguration.m in Sources */,
 				04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */,
-				04189F9C2244C98D000819A8 /* HFDisplayLink.m in Sources */,
 				04189F892244C656000819A8 /* LKImageDecoderManager.m in Sources */,
 				04189F9D2244C98D000819A8 /* HFTimer.m in Sources */,
 				04189F9A2244C98D000819A8 /* HFGCDTimer.m in Sources */,
