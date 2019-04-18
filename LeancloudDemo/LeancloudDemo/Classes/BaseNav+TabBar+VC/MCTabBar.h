@@ -1,5 +1,5 @@
 //
-//  BaseNavigationController.h
+//  MCTabBar.h
 //  MCTabBarDemo
 //
 //  Created by chh on 2017/12/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseNavigationController : UINavigationController
-
+@interface MCTabBar : UITabBar
+@property (nonatomic, strong) UIButton *centerBtn; //中间按钮
 @end

@@ -56,16 +56,15 @@
 		04189FB12244CF9B000819A8 /* HFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB02244CF9B000819A8 /* HFDisplayLink.m */; };
 		04189FB42244D800000819A8 /* RJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB32244D800000819A8 /* RJTextField.m */; };
 		04189FBA2244DC3D000819A8 /* UIImage+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB62244DC3C000819A8 /* UIImage+GradientColor.m */; };
-		04189FBB2244DC3D000819A8 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FB92244DC3D000819A8 /* BaseNavigationController.m */; };
-		04189FC42244DC91000819A8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04189FBD2244DC91000819A8 /* LICENSE */; };
-		04189FC52244DC91000819A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04189FBE2244DC91000819A8 /* README.md */; };
-		04189FC62244DC91000819A8 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FC12244DC91000819A8 /* WRCustomNavigationBar.m */; };
-		04189FC72244DC91000819A8 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FC32244DC91000819A8 /* WRNavigationBar.m */; };
 		04189FE42244E40F000819A8 /* MSXMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FE32244E40F000819A8 /* MSXMyViewController.m */; };
 		04189FE72244E421000819A8 /* MSXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FE62244E421000819A8 /* MSXMainViewController.m */; };
 		04189FEA2244E450000819A8 /* MSXProductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FE92244E450000819A8 /* MSXProductionViewController.m */; };
 		04189FED2244E485000819A8 /* MSXTaskStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04189FEC2244E485000819A8 /* MSXTaskStatusViewController.m */; };
 		42FC1C625A4BF99C878EFAE1 /* libPods-LeancloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */; };
+		654CC37A22550770009B76FD /* MSXStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CC37922550770009B76FD /* MSXStoryViewController.m */; };
+		654CC381225507EF009B76FD /* MCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CC37B225507EE009B76FD /* MCTabBar.m */; };
+		654CC382225507EF009B76FD /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CC37D225507EE009B76FD /* BaseNavigationController.m */; };
+		654CC383225507EF009B76FD /* WWCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CC37E225507EF009B76FD /* WWCustomTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,14 +172,6 @@
 		04189FB32244D800000819A8 /* RJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJTextField.m; sourceTree = "<group>"; };
 		04189FB62244DC3C000819A8 /* UIImage+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GradientColor.m"; sourceTree = "<group>"; };
 		04189FB72244DC3D000819A8 /* UIImage+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GradientColor.h"; sourceTree = "<group>"; };
-		04189FB82244DC3D000819A8 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		04189FB92244DC3D000819A8 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		04189FBD2244DC91000819A8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		04189FBE2244DC91000819A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		04189FC02244DC91000819A8 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
-		04189FC12244DC91000819A8 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
-		04189FC22244DC91000819A8 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
-		04189FC32244DC91000819A8 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
 		04189FE22244E40F000819A8 /* MSXMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSXMyViewController.h; sourceTree = "<group>"; };
 		04189FE32244E40F000819A8 /* MSXMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSXMyViewController.m; sourceTree = "<group>"; };
 		04189FE52244E421000819A8 /* MSXMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSXMainViewController.h; sourceTree = "<group>"; };
@@ -191,6 +182,14 @@
 		04189FEC2244E485000819A8 /* MSXTaskStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSXTaskStatusViewController.m; sourceTree = "<group>"; };
 		058F7F00B6BFA71DF61150FC /* Pods-LeancloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.release.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5844E6F10A7541693B8269C5 /* Pods-LeancloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeancloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-LeancloudDemo/Pods-LeancloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		654CC37822550770009B76FD /* MSXStoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSXStoryViewController.h; sourceTree = "<group>"; };
+		654CC37922550770009B76FD /* MSXStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSXStoryViewController.m; sourceTree = "<group>"; };
+		654CC37B225507EE009B76FD /* MCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTabBar.m; sourceTree = "<group>"; };
+		654CC37C225507EE009B76FD /* WWCustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWCustomTabBarController.h; sourceTree = "<group>"; };
+		654CC37D225507EE009B76FD /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		654CC37E225507EF009B76FD /* WWCustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWCustomTabBarController.m; sourceTree = "<group>"; };
+		654CC37F225507EF009B76FD /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		654CC380225507EF009B76FD /* MCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTabBar.h; sourceTree = "<group>"; };
 		A2440CF4E6277A5B4AE6C6CD /* libPods-LeancloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeancloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -248,6 +247,7 @@
 		04189E99224490FF000819A8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				654CC37722550723009B76FD /* cake的故事 */,
 				04189FB52244DC19000819A8 /* BaseNav+TabBar+VC */,
 				04189EFB22449AD6000819A8 /* GWNetWorkingTools */,
 				04189E9A224490FF000819A8 /* 3rd */,
@@ -562,34 +562,25 @@
 		04189FB52244DC19000819A8 /* BaseNav+TabBar+VC */ = {
 			isa = PBXGroup;
 			children = (
-				04189FBC2244DC91000819A8 /* WRNavigationBar */,
-				04189FB82244DC3D000819A8 /* BaseNavigationController.h */,
-				04189FB92244DC3D000819A8 /* BaseNavigationController.m */,
+				654CC37F225507EF009B76FD /* BaseNavigationController.h */,
+				654CC37D225507EE009B76FD /* BaseNavigationController.m */,
+				654CC380225507EF009B76FD /* MCTabBar.h */,
+				654CC37B225507EE009B76FD /* MCTabBar.m */,
+				654CC37C225507EE009B76FD /* WWCustomTabBarController.h */,
+				654CC37E225507EF009B76FD /* WWCustomTabBarController.m */,
 				04189FB72244DC3D000819A8 /* UIImage+GradientColor.h */,
 				04189FB62244DC3C000819A8 /* UIImage+GradientColor.m */,
 			);
 			path = "BaseNav+TabBar+VC";
 			sourceTree = "<group>";
 		};
-		04189FBC2244DC91000819A8 /* WRNavigationBar */ = {
+		654CC37722550723009B76FD /* cake的故事 */ = {
 			isa = PBXGroup;
 			children = (
-				04189FBD2244DC91000819A8 /* LICENSE */,
-				04189FBE2244DC91000819A8 /* README.md */,
-				04189FBF2244DC91000819A8 /* WRNavigationBar */,
+				654CC37822550770009B76FD /* MSXStoryViewController.h */,
+				654CC37922550770009B76FD /* MSXStoryViewController.m */,
 			);
-			path = WRNavigationBar;
-			sourceTree = "<group>";
-		};
-		04189FBF2244DC91000819A8 /* WRNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				04189FC02244DC91000819A8 /* WRCustomNavigationBar.h */,
-				04189FC12244DC91000819A8 /* WRCustomNavigationBar.m */,
-				04189FC22244DC91000819A8 /* WRNavigationBar.h */,
-				04189FC32244DC91000819A8 /* WRNavigationBar.m */,
-			);
-			path = WRNavigationBar;
+			path = "cake的故事";
 			sourceTree = "<group>";
 		};
 		ACCAD339983EC92CF815188A /* Pods */ = {
@@ -668,10 +659,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04189FC42244DC91000819A8 /* LICENSE in Resources */,
 				04189FAA2244C9E0000819A8 /* EBBannerView.xib in Resources */,
 				04189E9022448184000819A8 /* LaunchScreen.storyboard in Resources */,
-				04189FC52244DC91000819A8 /* README.md in Resources */,
 				04189F272244AB0C000819A8 /* A99588B8-38E7-4625-997E-99E8EF7D5FF0.png in Resources */,
 				04189E8D22448184000819A8 /* Assets.xcassets in Resources */,
 				04189E8B22448183000819A8 /* Main.storyboard in Resources */,
@@ -743,10 +732,10 @@
 				04189F792244C656000819A8 /* LKImageSystemDecoder.m in Sources */,
 				04189FE42244E40F000819A8 /* MSXMyViewController.m in Sources */,
 				04189E9322448184000819A8 /* main.m in Sources */,
-				04189FBB2244DC3D000819A8 /* BaseNavigationController.m in Sources */,
 				04189FB12244CF9B000819A8 /* HFDisplayLink.m in Sources */,
 				04189FE72244E421000819A8 /* MSXMainViewController.m in Sources */,
 				04189F8B2244C656000819A8 /* LKImageLogManager.m in Sources */,
+				654CC382225507EF009B76FD /* BaseNavigationController.m in Sources */,
 				04189F8C2244C656000819A8 /* LKImageManager.m in Sources */,
 				04189F2522449AD7000819A8 /* VoiceConverter.mm in Sources */,
 				04189F782244C656000819A8 /* LKImageSmartCache.m in Sources */,
@@ -769,21 +758,22 @@
 				04189F7F2244C656000819A8 /* LKImageBlurProcessor.m in Sources */,
 				04189F862244C656000819A8 /* LKImageRequest.m in Sources */,
 				04189F812244C656000819A8 /* LKImagePredrawProcessor.m in Sources */,
+				654CC37A22550770009B76FD /* MSXStoryViewController.m in Sources */,
 				04189F7D2244C656000819A8 /* LKImageNetworkFileLoader.m in Sources */,
 				04189F7A2244C656000819A8 /* LKImageBundleLoader.m in Sources */,
+				654CC381225507EF009B76FD /* MCTabBar.m in Sources */,
 				04189F2122449AD6000819A8 /* GWNetWorking.m in Sources */,
+				654CC383225507EF009B76FD /* WWCustomTabBarController.m in Sources */,
 				04189F882244C656000819A8 /* LKImageCacheManager.m in Sources */,
 				04189F852244C656000819A8 /* LKImageInfo.m in Sources */,
 				04189F802244C656000819A8 /* LKImageGrayProcessor.m in Sources */,
 				04189F832244C656000819A8 /* LKImageConfiguration.m in Sources */,
-				04189FC62244DC91000819A8 /* WRCustomNavigationBar.m in Sources */,
 				04189FEA2244E450000819A8 /* MSXProductionViewController.m in Sources */,
 				04189FAE2244C9E0000819A8 /* UILabel+ContentSize.m in Sources */,
 				04189F892244C656000819A8 /* LKImageDecoderManager.m in Sources */,
 				04189F9D2244C98D000819A8 /* HFTimer.m in Sources */,
 				04189F9A2244C98D000819A8 /* HFGCDTimer.m in Sources */,
 				04189FAD2244C9E0000819A8 /* UIImage+ColorAtPoint.m in Sources */,
-				04189FC72244DC91000819A8 /* WRNavigationBar.m in Sources */,
 				04189F872244C656000819A8 /* LKImageView.m in Sources */,
 				04189F822244C656000819A8 /* LKImageSpritesToMutipleImagesProcessor.m in Sources */,
 				04189F2222449AD6000819A8 /* amrFileCodec.mm in Sources */,
@@ -937,8 +927,9 @@
 			baseConfigurationReference = 5844E6F10A7541693B8269C5 /* Pods-LeancloudDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4M3AMBXTBE;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LeancloudDemo/MSXPrefixHeader.pch";
 				INFOPLIST_FILE = LeancloudDemo/Info.plist;
@@ -955,6 +946,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.XL.LeancloudMSX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -964,8 +956,9 @@
 			baseConfigurationReference = 058F7F00B6BFA71DF61150FC /* Pods-LeancloudDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4M3AMBXTBE;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LeancloudDemo/MSXPrefixHeader.pch";
 				INFOPLIST_FILE = LeancloudDemo/Info.plist;
@@ -982,6 +975,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.XL.LeancloudMSX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
