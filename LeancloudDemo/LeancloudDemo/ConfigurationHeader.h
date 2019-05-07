@@ -13,6 +13,13 @@
 #define SCREENH_HEIGHT [UIScreen mainScreen].bounds.size.height
 /** define:屏幕的宽高比 */
 #define CURRENT_SIZE(_size) _size / 375.0 * SCREEN_WIDTH
+
+#define IPHONE_X \({BOOL isPhoneX = NO;\if (@available(iOS 11.0, *)) {\isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\}\(isPhoneX);})
+/** *导航栏高度 */
+#define SafeAreaTopHeight (IPHONE_X ? 88 : 64)
+/** *tabbar高度 */
+#define SafeAreaBottomHeight (IPHONE_X ? (49 + 34) : 49)
+
 // 颜色
 #define WQQRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 #define WQQRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
@@ -23,6 +30,13 @@
 #define WQQRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
 
 #define WQQStrongSelf(type)  __strong typeof(type) type = weak##type;
+#define WQQWeakSelf(type)  __weak typeof(type) weak##type = type;
+
+//APP版本号
+#define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+//系统版本号
+#define kSystemVersion [[UIDevice currentDevice] systemVersion]
+
 
 
 

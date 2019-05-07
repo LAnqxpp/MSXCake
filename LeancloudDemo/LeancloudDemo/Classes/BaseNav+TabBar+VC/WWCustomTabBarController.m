@@ -16,7 +16,12 @@
 #import "MCTabBar.h"
 #import <ImageIO/ImageIO.h>
 #import "BaseNavigationController.h"
-#define SafeAreaBottomHeight ([UIScreen mainScreen].bounds.size.height == 812.0 ? 63 : 49)
+#define IPHONE_X \({BOOL isPhoneX = NO;\if (@available(iOS 11.0, *)) {\isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\}\(isPhoneX);})
+/** *导航栏高度 */
+#define SafeAreaTopHeight (IPHONE_X ? 88 : 64)
+/** *tabbar高度 */
+#define SafeAreaBottomHeight (IPHONE_X ? (49 + 34) : 49)
+
 
 static NSString *rotationAnimationKey = @"TabBarButtonTransformRotationAnimationKey";
 static NSString *flipAnimationKey = @"TabBarButtonTransformFlipAnimationKey";
@@ -62,7 +67,7 @@ static NSString *giffAnimationKey = @"TabBarButtonTransformGiffAnimationKey";
     self.tabBar.shadowImage = [[UIImage alloc]init];
     self.tabBar.backgroundImage = [[UIImage alloc]init];
  
-
+    self.edgesForExtendedLayout = UIRectEdgeBottom;
     // Do any additional setup after loading the view.
 }
 - (void)customTabBarTabBarButton {
@@ -75,10 +80,28 @@ static NSString *giffAnimationKey = @"TabBarButtonTransformGiffAnimationKey";
     //利用KVC 将自己的tabbar赋给系统tabBar
     [self setValue:_mcTabbar forKeyPath:@"tabBar"];
 }
+- (BOOL)isIPhoneXSeries{
+    BOOL iPhoneXSeries = NO;
+    if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone) {
+        return iPhoneXSeries;
+    }
+    
+    if (@available(iOS 11.0, *)) {
+        UIWindow *mainWindow = [[[UIApplication sharedApplication] delegate] window];
+        if (mainWindow.safeAreaInsets.bottom > 0.0) {
+            iPhoneXSeries = YES;
+        }
+    }
+    return iPhoneXSeries;
+}
+
 
 - (void)customTabBarTabBarArticle{
  
-    UIView *bgView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, SafeAreaBottomHeight)];
+    CGFloat height  = [self isIPhoneXSeries] ? 83 :49;
+    
+    
+    UIView *bgView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, height)];
     bgView.backgroundColor = [UIColor colorWithRed:42.0/255.0 green:46.0/255.0 blue:67/255.0 alpha:1];
     [self.tabBar insertSubview:bgView atIndex:0];
     self.tabBar.opaque = YES;
