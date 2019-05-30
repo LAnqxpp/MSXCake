@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MSXProductionViewController : UIViewController
+@interface MSXProductionViewController : WQBaseViewController
 
 @end
 

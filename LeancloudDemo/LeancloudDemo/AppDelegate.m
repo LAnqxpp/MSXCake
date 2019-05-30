@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MSXLoginViewController.h"
-#import "WWCustomTabBarController.h"
+#import "WQTabBarViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,15 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [AVOSCloud setApplicationId:@"CysAtkPSVByYWYEOUs053aX0-gzGzoHsz" clientKey:@"Df3wPC5xOHHmC0suadffR5E8"];
+    [AVOSCloud setApplicationId:AVOSCloudID clientKey:AVOSCloudKey];
     // 放在 SDK 初始化语句 [AVOSCloud setApplicationId:] 后面，只需要调用一次即可
     [AVOSCloud setAllLogsEnabled:YES];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dddd:) name:EBBannerViewDidClick object:nil];
 
+    self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREENH_HEIGHT)];
+    self.window.backgroundColor  = [UIColor whiteColor];
     
-    
-    self.window.rootViewController = [[WWCustomTabBarController alloc]init];
+    self.window.rootViewController = [[WQTabBarViewController alloc]init];
     
     [self.window makeKeyAndVisible];
     

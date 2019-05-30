@@ -17,8 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    
+
     RJTextField * account = [[RJTextField alloc]initWithFrame:CGRectMake(0, 100, SCREEN_WIDTH, 60)];
     account.placeholder = @"请输入手机号";
     account.maxLength = 11;
@@ -36,8 +35,30 @@
     password.textField.secureTextEntry = YES;
     [self.view addSubview:password];
     
-    [EBForeNotification handleRemoteNotification:@{@"aps":@{@"alert":@"皮卡丘: Hi 小智，一起去冒险吧!"}} soundID:1312 isIos10:NO];
+    
+    UIButton *loginBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [loginBtn setTitle:@"登录" forState:UIControlStateNormal];
+    loginBtn.backgroundColor = [UIColor blueColor];
+    [loginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    loginBtn.frame = CGRectMake((SCREEN_WIDTH-200)/2, SCREENH_HEIGHT/2, 200, 55);
+    [self.view addSubview:loginBtn];
+    [loginBtn addTarget:self action:@selector(loginBtnAction) forControlEvents:UIControlEventTouchUpInside];
+
+    
+//    [EBForeNotification handleRemoteNotification:@{@"aps":@{@"alert":@"皮卡丘: Hi 小智，一起去冒险吧!"}} soundID:1312 isIos10:NO];
     // Do any additional setup after loading the view.
+}
+- (void)loginBtnAction
+{
+    AVUser *user = [AVUser user];
+    user.username = @"";
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 
 /*
